@@ -1,0 +1,63 @@
+body {
+    background: radial-gradient(rgb(91, 91, 91), rgb(54, 54, 54), rgb(42, 42, 42), black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#main {
+    padding-top: 250px;
+}
+
+#startButton {
+    width: 250px;
+    height: 170px;
+    background: radial-gradient(rgb(255, 255, 255), rgb(209, 209, 209), rgb(157, 157, 157), rgb(107, 107, 107));    
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#secondBox {
+    background: radial-gradient(rgb(91, 91, 91), rgb(54, 54, 54), rgb(42, 42, 42), black);
+    height: 250px;
+    width: 600px;
+    position: relative;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-left: center;
+    margin-right: center;
+}
+
+#secondBox .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1, p {
+    color: #ffffff;
+}
+
+ol {
+    display: inline-block;
+}
+
+li {
+    text-align: center;
+    color: #ffffff;
+}
+
+#scoreBoard {
+    display: none;
+}
+#p2 {
+    color: rgb(57, 57, 57);
+}
